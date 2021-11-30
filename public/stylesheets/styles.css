@@ -45,7 +45,8 @@ nav {
 }
 
 .home-img {
-    height: 300px;
+    width: 300px;
+    height: auto;
     margin-bottom: 50px;
 }
 
@@ -61,16 +62,20 @@ nav {
 /* beer page */
 
 .beer-container {
-    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 50px 100px;
     padding: 20px; 
 }
 
-#beer-image {
+
+.beer-image {  
     display: flex;
-    width: 100%;
     justify-content: center;
-    height: 150px;
+    height: auto;
+    width: 550px;
 }
 
 /* random beer page */
@@ -89,6 +94,10 @@ footer {
     padding: 20px;
     text-align: start;
     position: fixed;
+}
+
+img {
+    width: 15%;
 }
 
 
